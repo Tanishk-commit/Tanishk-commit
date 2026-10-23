@@ -1,68 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Tanishk Kekan — Neon Multiverse</title>
-  <desc id="desc">A futuristic cyan, violet and magenta developer banner with circuit details, stars, the name Tanishk Kekan, and the motto Build, Innovate, Evolve.</desc>
+  <desc id="desc">A premium futuristic developer banner with a neon megacity, glowing orbital portal, technical HUD details, bold luminous typography, and the motto Build, Innovate, Evolve.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030817"/>
-      <stop offset=".48" stop-color="#10103a"/>
-      <stop offset="1" stop-color="#25082e"/>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030611"/><stop offset=".42" stop-color="#090f2c"/><stop offset=".72" stop-color="#180d36"/><stop offset="1" stop-color="#070817"/>
     </linearGradient>
-    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#66f7ff"/>
-      <stop offset=".48" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#ff4fc8"/>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2=".2">
+      <stop offset="0" stop-color="#6ff7ff"/><stop offset=".35" stop-color="#54b9ff"/><stop offset=".64" stop-color="#b7a0ff"/><stop offset="1" stop-color="#ff62d1"/>
     </linearGradient>
-    <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00e5ff" stop-opacity=".85"/>
-      <stop offset="1" stop-color="#ff2d95" stop-opacity=".85"/>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00eaff"/><stop offset=".52" stop-color="#9475ff"/><stop offset="1" stop-color="#ff32b5"/>
     </linearGradient>
-    <radialGradient id="orb">
-      <stop offset="0" stop-color="#a855f7" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13295b"/><stop offset="1" stop-color="#050817"/>
+    </linearGradient>
+    <radialGradient id="nebula">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity=".45"/><stop offset=".5" stop-color="#4f46e5" stop-opacity=".18"/><stop offset="1" stop-color="#050817" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow" x="-30%" y="-50%" width="160%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="portal">
+      <stop offset="0" stop-color="#081126"/><stop offset=".52" stop-color="#1d2460"/><stop offset=".75" stop-color="#7c3aed" stop-opacity=".8"/><stop offset=".88" stop-color="#00eaff" stop-opacity=".8"/><stop offset="1" stop-color="#00eaff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-60%" width="180%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#7dd3fc" stroke-opacity=".055" stroke-width="1"/>
+    <filter id="smallGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="microgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#78cfff" stroke-opacity=".075" stroke-width=".8"/>
+      <circle cx="0" cy="0" r="1" fill="#77eaff" fill-opacity=".16"/>
     </pattern>
+    <pattern id="windows" width="12" height="14" patternUnits="userSpaceOnUse">
+      <path d="M3 3h3v5H3z" fill="#53eaff" fill-opacity=".5"/>
+      <path d="M8 3h2v5H8z" fill="#fa4ec9" fill-opacity=".35"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="360" rx="18"/></clipPath>
   </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
-  <circle cx="1030" cy="68" r="230" fill="url(#orb)"/>
-  <circle cx="170" cy="270" r="190" fill="url(#orb)"/>
-  <g fill="#dffbff">
-    <circle cx="128" cy="73" r="1.7"/><circle cx="185" cy="218" r="1.3"/><circle cx="264" cy="45" r="1.5"/>
-    <circle cx="923" cy="39" r="1.8"/><circle cx="1047" cy="119" r="1.4"/><circle cx="1112" cy="213" r="1.7"/>
-    <circle cx="1000" cy="256" r="1.2"/><circle cx="75" cy="166" r="1.3"/><circle cx="1081" cy="63" r="1.3"/>
-    <circle cx="332" cy="253" r="1.2"/><circle cx="866" cy="252" r="1.4"/><circle cx="956" cy="187" r="1.2"/>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="360" fill="url(#space)"/>
+    <rect width="1200" height="360" fill="url(#microgrid)"/>
+    <ellipse cx="200" cy="80" rx="300" ry="230" fill="url(#nebula)"/>
+    <ellipse cx="1030" cy="70" rx="330" ry="250" fill="url(#nebula)"/>
+    <ellipse cx="600" cy="360" rx="680" ry="180" fill="#5b21b6" opacity=".12"/>
+    <!-- stars -->
+    <g fill="#e0fbff">
+      <circle cx="75" cy="112" r="1.5"/><circle cx="131" cy="42" r="1.2"/><circle cx="229" cy="85" r="1.1"/>
+      <circle cx="318" cy="31" r="1.6"/><circle cx="405" cy="70" r="1"/><circle cx="486" cy="30" r="1.4"/>
+      <circle cx="718" cy="40" r="1.5"/><circle cx="792" cy="78" r="1.1"/><circle cx="892" cy="32" r="1.4"/>
+      <circle cx="1080" cy="103" r="1.4"/><circle cx="1135" cy="56" r="1.7"/><circle cx="1011" cy="143" r="1"/>
+      <circle cx="94" cy="202" r="1.1"/><circle cx="1100" cy="192" r="1.2"/><circle cx="300" cy="172" r="1"/>
+    </g>
+    <g stroke="#b7f6ff" stroke-width="1" opacity=".7">
+      <path d="M165 105v8m-4-4h8"/><path d="M1030 38v9m-4.5-4.5h9"/><path d="M890 119v7m-3.5-3.5h7"/>
+    </g>
+    <!-- orbital portal at the far right, behind text -->
+    <circle cx="1055" cy="104" r="136" fill="url(#portal)" opacity=".56"/>
+    <circle cx="1055" cy="104" r="105" fill="none" stroke="#4feaff" stroke-opacity=".5" stroke-width="1.4"/>
+    <ellipse cx="1055" cy="104" rx="145" ry="42" transform="rotate(-34 1055 104)" fill="none" stroke="#b45cff" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse cx="1055" cy="104" rx="126" ry="31" transform="rotate(34 1055 104)" fill="none" stroke="#00eaff" stroke-opacity=".38" stroke-width="1.4"/>
+    <!-- futuristic skyline -->
+    <path d="M0 290V231h35v-36h22v65h18v-88h30v118h18v-52h22v-31h18v83h24v-112h24v-39h15v151h21v-66h24v-44h16v110h22v-79h24v-28h16v107h25v-61h20v-36h16v97h21v-126h18v-22h12v148h22v-77h25v-41h18v118h24v-58h20v-35h15v93h24v-78h20v-31h18v109h22v-132h18v-24h12v156h24v-68h20v-52h20v120h22v-87h18v-35h16v122h25v-64h22v-44h17v108h22v-82h20v-39h17v121h24v-95h18v-24h19v119h20v-61h24v-45h17v106h24v-130h18v-23h14v153h21v-71h25v-39h17v110h23v-61h24v-38h18v99h23v-120h18v-20h18v140h30v-42h22v42h20v70H0Z" fill="url(#city)" opacity=".94"/>
+    <path d="M0 290V231h35v-36h22v65h18v-88h30v118h18v-52h22v-31h18v83h24v-112h24v-39h15v151h21v-66h24v-44h16v110h22v-79h24v-28h16v107h25v-61h20v-36h16v97h21v-126h18v-22h12v148h22v-77h25v-41h18v118h24v-58h20v-35h15v93h24v-78h20v-31h18v109h22v-132h18v-24h12v156h24v-68h20v-52h20v120h22v-87h18v-35h16v122h25v-64h22v-44h17v108h22v-82h20v-39h17v121h24v-95h18v-24h19v119h20v-61h24v-45h17v106h24v-130h18v-23h14v153h21v-71h25v-39h17v110h23v-61h24v-38h18v99h23v-120h18v-20h18v140h30v-42h22v42h20v70H0Z" fill="url(#windows)" opacity=".48"/>
+    <!-- skyline neon edges -->
+    <path d="M0 290H1200" stroke="url(#neon)" stroke-width="2" opacity=".75" filter="url(#smallGlow)"/>
+    <path d="M32 230v-35m73 35v-88m103 35v-39m115 75v-28m83 43v-36m110 9v-22m112 39v-24m111 28v-39m105 45v-33m105 27v-31m110 35v-42" stroke="#55eaff" stroke-width="1.4" opacity=".55"/>
+    <!-- edge HUD circuit traces -->
+    <g fill="none" stroke="url(#neon)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 42h108l20 20h52l22-22h82"/><path d="M0 58h48l13 13h30" opacity=".65"/>
+      <path d="M1200 42h-106l-20 20h-52l-22-22h-82"/><path d="M1200 58h-48l-13 13h-30" opacity=".65"/>
+      <path d="M0 310h86l17-17h54l16 16h75"/><path d="M1200 310h-86l-17-17h-54l-16 16h-75"/>
+    </g>
+    <g fill="#7af7ff" filter="url(#smallGlow)"><circle cx="108" cy="42" r="3"/><circle cx="262" cy="40" r="3"/><circle cx="86" cy="310" r="3"/></g>
+    <g fill="#ff5ccf" filter="url(#smallGlow)"><circle cx="1094" cy="42" r="3"/><circle cx="938" cy="40" r="3"/><circle cx="1114" cy="310" r="3"/></g>
+    <!-- central readable title panel -->
+    <rect x="250" y="75" width="700" height="202" rx="18" fill="#050a1b" fill-opacity=".58" stroke="#7cecff" stroke-opacity=".15"/>
+    <path d="M278 88h78m-78 0v16M922 88h-78m78 0v16M278 264h78m-78 0v-16M922 264h-78m78 0v-16" stroke="url(#neon)" stroke-width="2" fill="none"/>
+    <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+      <text x="600" y="135" font-size="58" font-weight="900" letter-spacing="2.5" fill="#050817" stroke="#050817" stroke-width="8" stroke-linejoin="round">TANISHK KEKAN</text>
+      <text x="600" y="135" font-size="58" font-weight="900" letter-spacing="2.5" fill="url(#name)" filter="url(#softGlow)">TANISHK KEKAN</text>
+      <path d="M405 151H795" stroke="url(#neon)" stroke-width="1.5" opacity=".9"/>
+      <text x="600" y="178" font-size="15" font-weight="800" letter-spacing="4.1" fill="#f5f7ff">SOFTWARE ENGINEERING STUDENT</text>
+      <text x="600" y="204" font-size="13" font-weight="700" letter-spacing="2.1" fill="#7ceeff">AI/ML  ·  COMPUTER VISION  ·  FULL-STACK DEVELOPMENT</text>
+      <path d="M365 226H835" stroke="#7ceeff" stroke-opacity=".2"/>
+      <text x="430" y="252" font-size="18" font-weight="900" letter-spacing="3" fill="#57f4ff">BUILD</text>
+      <text x="500" y="252" font-size="20" font-weight="800" fill="#a78bfa">→</text>
+      <text x="600" y="252" font-size="18" font-weight="900" letter-spacing="2.4" fill="#c4a5ff">INNOVATE</text>
+      <text x="704" y="252" font-size="20" font-weight="800" fill="#ff65d2">→</text>
+      <text x="780" y="252" font-size="18" font-weight="900" letter-spacing="3" fill="#ff72cf">EVOLVE</text>
+    </g>
+    <!-- tiny interface labels in side margins -->
+    <g font-family="monospace" font-size="8" letter-spacing="1.5" fill="#7beaff" opacity=".7">
+      <text x="28" y="91">SYS.ONLINE</text><text x="28" y="103">BUILD / 001</text>
+      <text x="1072" y="91">NEURAL.LINK</text><text x="1072" y="103">STATUS: ACTIVE</text>
+      <text x="28" y="279">IDEA → CODE</text><text x="1060" y="279">CREATE / REPEAT</text>
+    </g>
+    <path d="M0 340H1200" stroke="url(#neon)" stroke-width="2" opacity=".6"/>
   </g>
-  <g fill="none" stroke="url(#lineGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0 48H105L127 70H185L205 50H260"/>
-    <path d="M0 65H48L61 78H90" opacity=".65"/>
-    <path d="M1200 49H1092L1072 69H1014L996 51H952"/>
-    <path d="M1200 68H1152L1139 81H1110" opacity=".65"/>
-    <path d="M0 235H82L102 215H145L164 234H208"/>
-    <path d="M1200 230H1114L1094 210H1050L1032 229H992"/>
-  </g>
-  <g fill="#00e5ff">
-    <circle cx="105" cy="48" r="3"/><circle cx="260" cy="50" r="3"/><circle cx="82" cy="235" r="3"/>
-  </g>
-  <g fill="#ff4fc8">
-    <circle cx="1092" cy="49" r="3"/><circle cx="952" cy="51" r="3"/><circle cx="1114" cy="230" r="3"/>
-  </g>
-  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <text x="600" y="117" font-size="61" font-weight="900" letter-spacing="3" fill="#11112b" opacity=".9">TANISHK KEKAN</text>
-    <text x="600" y="111" font-size="61" font-weight="900" letter-spacing="3" fill="url(#titleGradient)" stroke="#a5f3fc" stroke-opacity=".22" stroke-width="1" filter="url(#glow)">TANISHK KEKAN</text>
-    <path d="M340 137H860" stroke="url(#lineGradient)" stroke-width="1.5" opacity=".8"/>
-    <text x="600" y="168" font-size="17" font-weight="700" letter-spacing="4" fill="#f2f6ff">SOFTWARE ENGINEERING STUDENT</text>
-    <text x="600" y="198" font-size="15" font-weight="600" letter-spacing="2.8" fill="#72efff">AI/ML  ·  COMPUTER VISION  ·  FULL-STACK DEVELOPMENT</text>
-    <text x="600" y="249" font-size="21" font-weight="800" letter-spacing="4" fill="#5ef4ff">BUILD</text>
-    <text x="700" y="249" font-size="21" font-weight="700" fill="#a78bfa">→</text>
-    <text x="790" y="249" font-size="21" font-weight="800" letter-spacing="3" fill="#c4a5ff">INNOVATE</text>
-    <text x="910" y="249" font-size="21" font-weight="700" fill="#ff4fc8">→</text>
-    <text x="1005" y="249" font-size="21" font-weight="800" letter-spacing="3" fill="#ff72cf">EVOLVE</text>
-  </g>
-  <path d="M310 280H890" stroke="url(#lineGradient)" stroke-width="1" opacity=".45"/>
 </svg>
