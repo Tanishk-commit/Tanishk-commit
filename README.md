@@ -1,7 +1,7 @@
-<!-- Animated profile header -->
+<!-- Neon Multiverse custom code-generated header -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:7C3AED,100:FF2D95&height=190&section=header&text=Tanishk%20Kekan&fontSize=46&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20AI%2FML%20%7C%20Full-Stack%20Development&descAlignY=58&descSize=16" alt="Colorful animated-style profile banner" width="100%" />
+<img src="https://raw.githubusercontent.com/Tanishk-commit/Tanishk-commit/main/assets/neon-multiverse-header.svg" alt="Neon Multiverse — Tanishk Kekan | Build, Innovate, Evolve" width="100%" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=760&lines=Building+useful+things+with+code;Exploring+AI%2FML+and+computer+vision;Learning+full-stack+engineering;Turning+ideas+into+working+projects" alt="Typing animation" />
