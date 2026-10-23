@@ -46,7 +46,7 @@
 
 <!-- Replace the four platform-homepage links above with your actual profile/channel/payment URLs when ready. -->
 
-## 🐍 Snake Game — Contribution Graph
+## Contribution Graph
 
 <div align="center">
 
@@ -138,8 +138,6 @@
 <div align="center">
 
 ### ✨ Thanks for stopping by!
-
-![Profile views](https://komarev.com/ghpvc/?username=Tanishk-commit&style=for-the-badge&color=7C3AED)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D95,50:7C3AED,100:00E5FF&height=100&section=footer" width="100%" alt="Colorful footer banner" />
 
