@@ -25,22 +25,19 @@
 
 > *I learn by building, improve by testing, and grow by shipping projects.*
 
-## 🏆 GitHub Trophies
+<!--## 🏆 GitHub Trophies
 
 <div align="center">
 
 [![Trophies](https://github-profile-trophy.vercel.app/?username=Tanishk-commit&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
-</div>
+</div> -->
 
 ## 🌐 Connect with me
 
 <div align="center">
 
-[![Instagram](https://img.shields.io/badge/Instagram-Add%20your%20profile-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Add%20your%20profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![YouTube](https://img.shields.io/badge/YouTube-Add%20your%20channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/)
-[![PayPal](https://img.shields.io/badge/PayPal-Add%20your%20link-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/)
 
 </div>
 
