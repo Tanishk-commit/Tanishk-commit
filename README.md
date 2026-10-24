@@ -14,86 +14,24 @@
 
 ---
 
-<!-- NEON MULTIVERSE / ABOUT PANEL -->
+## 👋 Hi, I'm Tanishk!
+
+- 🎓 B.E. student at **Pimpri Chinchwad College of Engineering and Research (PCCOER), Pune**.
+- 🔭 Building projects across **AI/ML, computer vision, and full-stack web development**.
+- 🌱 Currently strengthening my software engineering, model development, and database skills.
+- 🧠 I enjoy problem-solving, logical reasoning, and learning how systems work end to end.
+- 💼 Completed a **Google AI/ML internship through EduSkills**.
+- 📫 Email: [www.tanishkkekan@gmail.com](mailto:www.tanishkkekan@gmail.com)
+
+> *I learn by building, improve by testing, and grow by shipping projects.*
+
+## 🏆 GitHub Trophies
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:07111F,50:171044,100:240D32&height=3&section=header" width="100%" alt="" />
-
-<h2>◈ THE DEVELOPER BEHIND THE CODE ◈</h2>
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-<h3>👋 &nbsp;Hey, I'm Tanishk.</h3>
-
-<strong>Software Engineering Student · AI/ML Explorer · Full-Stack Builder</strong>
-
-<p>I turn ideas into working projects—combining software engineering, computer vision, and practical problem-solving.</p>
-
-<p>🎓 &nbsp;<strong>Education</strong><br/>
-B.E. · PCCOER, Pune</p>
-
-<p>🧠 &nbsp;<strong>What drives me</strong><br/>
-Logical thinking, building useful things, testing ideas, and improving them iteratively.</p>
-
-<p>🤖 &nbsp;<strong>Exploring</strong><br/>
-AI/ML · Computer Vision · Full-Stack Development · Databases</p>
-
-<p>🚀 &nbsp;<strong>Experience</strong><br/>
-Completed Google AI/ML internship through EduSkills.</p>
-
-</td>
-<td width="42%" valign="top">
-
-<h3>⚡ MY BUILD PHILOSOPHY</h3>
-
-<p align="center">
-<strong>01 / BUILD</strong><br/>
-<sub>Turn an idea into a working prototype.</sub>
-</p>
-
-<p align="center">↓</p>
-
-<p align="center">
-<strong>02 / INNOVATE</strong><br/>
-<sub>Experiment, learn, and improve the solution.</sub>
-</p>
-
-<p align="center">↓</p>
-
-<p align="center">
-<strong>03 / EVOLVE</strong><br/>
-<sub>Refine the details and keep shipping.</sub>
-</p>
-
-</td>
-</tr>
-</table>
-
-<a href="mailto:www.tanishkkekan@gmail.com"><img src="https://img.shields.io/badge/LET'S%20CONNECT-00D9FF?style=for-the-badge&logo=minutemailer&logoColor=07111F" alt="Email Tanishk" /></a>
-<a href="https://tanishk-universe.netlify.app/"><img src="https://img.shields.io/badge/EXPLORE%20MY%20UNIVERSE-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore portfolio" /></a>
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Tanishk-commit&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
-
----
-
-<!-- TROPHY SECTION / compact neon showcase -->
-<div align="center">
-
-<h2>🏆 &nbsp;ACHIEVEMENTS UNLOCKED</h2>
-<p><em>Every contribution is a checkpoint. Every project is another level.</em></p>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Tanishk-commit&theme=onestar&no-frame=true&no-bg=true&row=1&column=6&margin-w=12&margin-h=8" alt="GitHub achievement trophies for Tanishk-commit" width="100%" />
-
-<p>
-<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-00E5FF?style=flat-square&labelColor=0B1020" alt="Always learning" />
-<img src="https://img.shields.io/badge/MODE-BUILD%20%7C%20INNOVATE%20%7C%20EVOLVE-BB86FC?style=flat-square&labelColor=0B1020" alt="Build Innovate Evolve" />
-</p>
-
-</div>
-
----
 
 ## 🌐 Connect with me
 
